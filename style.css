@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgba(112, 246, 255, 0.33) 11.2%,
+    rgba(221, 108, 241, 0.26) 42%,
+    rgba(229, 106, 253, 0.71) 71.5%,
+    rgba(123, 183, 253, 1) 100.2%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+
+  background: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border: 0;
+  border-radius: 20px;
+
+  background: #e0e0e0;
+  box-shadow:
+    20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  gap: 15px;
+}
+.search input {
+  width: 300px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  color: #000000;
+  font-size: 16px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  background-image: url(assets/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.weather-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.weather-detail {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 20px;
+}
+
+.wind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.wind img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+
+.humidity img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+.humidity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.search button:hover {
+  transition: 0.3s;
+  transform: scale(1.1); /* Phóng to nhẹ */
+  filter: brightness(1.2); /* Làm sáng hình ảnh lên */
+}
+
+.search input:hover {
+  transition: 0.3s;
+  transform: scale(1.1); /* Phóng to nhẹ */
+  filter: brightness(1.2); /* Làm sáng hình ảnh lên */
+}
