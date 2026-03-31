@@ -9,27 +9,31 @@
   <body>
     <div class="container">
       <h1>Weather</h1>
+
       <div class="search">
-        <input type="text" placeholder="Add City name" class="search-input" />
+        <input type="text" placeholder="Add City Name" class="search-input" />
         <button class="search-btn"></button>
       </div>
       <div class="weather-info">
-        <div class="weather-icon">
-          <img src="assets/clear.png" />
-          <h1 class="weather-city">HCM</h1>
+        <div class="weather-header">
+          <img class="weather-icon" src="assets/clear.png" />
+          <h1 class="weather-heat"></h1>
+          <h1 class="weather-city"></h1>
         </div>
 
         <div class="weather-detail">
           <div class="humidity">
             <img src="assets/humidity.png" />
-            <h2 class="weather-humidity">20%</h2>
+            <h2 class="weather-humidity"></h2>
           </div>
           <div class="wind">
             <img src="assets/wind.png" />
-            <h2 class="weather-wind">20 km/h</h2>
+            <h2 class="weather-wind"></h2>
           </div>
         </div>
       </div>
+      <span class="error">Không tìm thấy thành phố</span>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
