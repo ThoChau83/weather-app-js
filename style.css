@@ -81,8 +81,8 @@ body {
 .weather-detail {
   display: flex;
   width: 100%;
-  justify-content: 
-  gap: 40px; 
+  justify-content: center;
+  gap: 40px;
   align-items: center;
 }
 
