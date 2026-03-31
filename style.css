@@ -81,10 +81,9 @@ body {
 .weather-detail {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: 
+  gap: 40px; 
   align-items: center;
-
-  margin: 20px;
 }
 
 .wind {
